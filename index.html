@@ -5,13 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- title -->
-  <title>RememberTheNumber</title>
+  <title>RememberTheNumbers</title>
   <!-- link CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <span id="numbers"></span>
+  <header>
+    <h1>RememberTheNumbers</h1>
+    <div id="btn-container">
+      <p id="rules"></p>
+      <button id="easy" class="difficulty">Easy</button>
+      <button id="medium" class="difficulty">Medium</button>
+      <button id="hard" class="difficulty">Hard</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="numbers"></div>
+    <div id="user-hud" class="hidden">
+      <label id="input-label" for="input"></label>
+      <input type="text" id="input" name="input" placeholder="Insert a number">
+      <button id="check">Add</button>
+    </div>
+    <p id="end"></p>
+  </main>
+
+
+  
+  
+  
+  
+  
   <!-- 00000000 SCRIPT 00000000 -->
   <script src="script.js"></script>
 </body>

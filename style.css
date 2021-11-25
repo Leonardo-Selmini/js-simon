@@ -3,4 +3,103 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  text-align: center;
+  background-color: #495867;
+  padding: 2.5rem;
+}
+
+button {
+  font-size: 1.4rem;
+  background-color: #F7F7FF;
+  color: #495867;
+  margin: 0 1rem;
+  padding: .8rem 1.4rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+button:hover {
+  background-color: #FE5F55;
+  color: #F7F7FF;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden-btn {
+  display: none;
+}
+
+/* 00000000 HEADER 00000000 */
+header h1 {
+  font-size: 5rem;
+  color: #F7F7FF;
+}
+
+#btn-container {
+  position: relative;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rules {
+  position: absolute;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #FE5F55;
+}
+
+.rules {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+/* 00000000 MAIN 00000000 */
+main {
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BDD5EA;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+
+#numbers {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(28, 28, 30);
+}
+
+#input-label {
+  display: block;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(28, 28, 30);
+  margin-bottom: 2rem;
+}
+
+#input {
+  font-size: 1.4rem;
+  padding: .8rem 1.4rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+}
+
+#end {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(28, 28, 30);
 }
